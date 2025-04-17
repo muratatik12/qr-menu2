@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo QR Menü</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    .menu {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #eee;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Demo Kafe</h1>
+    <p>Dijital Menü</p>
+  </header>
+  <div class="menu">
+    <h2>Kahvaltılıklar</h2>
+    <ul>
+      <li><span>Serpme Kahvaltı</span><span>120₺</span></li>
+      <li><span>Menemen</span><span>55₺</span></li>
+      <li><span>Omlet</span><span>50₺</span></li>
+    </ul>
+
+    <h2>Sıcak İçecekler</h2>
+    <ul>
+      <li><span>Çay</span><span>10₺</span></li>
+      <li><span>Kahve</span><span>35₺</span></li>
+      <li><span>Türk Kahvesi</span><span>40₺</span></li>
+    </ul>
+
+    <h2>Soğuk İçecekler</h2>
+    <ul>
+      <li><span>Ice Tea</span><span>25₺</span></li>
+      <li><span>Limonata</span><span>30₺</span></li>
+      <li><span>Soğuk Kahve</span><span>40₺</span></li>
+    </ul>
+  </div>
+</body>
+</html>
